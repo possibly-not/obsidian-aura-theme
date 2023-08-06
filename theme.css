@@ -30,14 +30,14 @@ select,
 }
 
 .theme-dark.aura-soft {
-    --background-primary: #15141b !important;
-    --background-secondary: #110f18 !important;
-	--ribbon-background: #15141b !important;
+    --background-primary: #21202e !important;
+    --background-secondary: #1c1b22 !important;
+	--ribbon-background: #21202e !important;
 	--titlebar-background: var(--background-secondary) !important;
     --titlebar-background-focused: var(--background-secondary) !important;
     --code-background: var(--background-secondary) !important;
-    --indentation-guide-color: #bdbdbd !important;
-    --color-base-30: #54c59f !important;
+    --indentation-guide-color: #edecee !important;
+    --color-base-30: #61ffca !important;
 
 }
 

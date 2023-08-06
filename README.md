@@ -1,5 +1,5 @@
 
-![auratheme](img/aura_dark_diagonal.png)
+![auratheme](img/aura_dark_diagonal_full.png)
 >✨ A beautiful dark theme for your favourite apps
 
 This is an Obsidian theme based on the Aura Theme! Made via the Aura API.

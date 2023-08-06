@@ -7,9 +7,9 @@ Find the repo here : https://github.com/daltonmenezes/aura-theme
 ## Features
 - [x] Aura Dark and Aura Dark Soft
 - [x] Other tweaks via plugins!
-- [ ] Additional two soft text themes.
+- [ ] Additional two soft text themes
 - [ ] Light mode 
-- [ ] Complete theme coverage, 
+- [ ] Complete theme coverage
 - [x] Pull requests accepted! 
 
 ![image](img/aura_dark.png)

@@ -1,5 +1,5 @@
 
-![auratheme](https://github.com/Possibly-Matt/obsidian-aura-theme/assets/12588174/63fad219-94db-4e00-8b3a-f7fe3531f090)
+![auratheme](img/aura_dark_diagonal.png)
 >✨ A beautiful dark theme for your favourite apps
 
 This is an Obsidian theme based on the Aura Theme! Made via the Aura API.
@@ -11,8 +11,11 @@ Find the repo here : https://github.com/daltonmenezes/aura-theme
 - [ ] Light mode 
 - [ ] Complete theme coverage, 
 - [x] Pull requests accepted! 
+
+![image](img/aura_dark.png)
+
 ## Aura Dark Soft
-![image](https://github.com/Possibly-Matt/obsidian-aura-theme/assets/12588174/9d3f6873-fba5-4a83-be70-3182ee55b717)
+![image](img/aura_dark_soft.png)
 Currently with **Aura Dark** and **Aura Dark Soft** options, using the Style Settings plugin, found within the community plugins in the settings!
 ### Enable Aura Dark Soft
 1. Go to settings

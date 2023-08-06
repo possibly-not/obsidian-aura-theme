@@ -30,15 +30,34 @@ select,
 }
 
 .theme-dark.aura-soft {
-    --background-primary: #21202e !important;
-    --background-secondary: #1c1b22 !important;
-	--ribbon-background: #21202e !important;
-	--titlebar-background: var(--background-secondary) !important;
-    --titlebar-background-focused: var(--background-secondary) !important;
-    --code-background: var(--background-secondary) !important;
-    --indentation-guide-color: #edecee !important;
-    --color-base-30: #61ffca !important;
+    --background-primary: #21202e;
+    --background-secondary: #1c1b22;
+	--ribbon-background: #21202e;
+	--titlebar-background: var(--background-secondary);
+    --titlebar-background-focused: var(--background-secondary);
+    --code-background: var(--background-secondary);
+    --indentation-guide-color: #edecee;
+    --color-base-30: #61ffca;
 
+}
+
+.clickable-icon.aura-soft:hover, .clickable-icon.aura-soft:hover svg, .is-focused.aura-soft .titlebar-inner.aura-soft {
+	color: #61ffca;
+}
+
+/* File picker: Make current file purple! */
+body.aura-soft:not(.is-grabbing) .nav-file-title.is-active.aura-soft:hover, body.aura-soft:not(.is-grabbing) .nav-folder-title.is-active.aura-soft:hover, .nav-file-title.is-active.aura-soft, .nav-folder-title.is-active.aura-soft {
+	color: #a277ff;
+}
+
+select,
+.dropdown.aura-soft {
+  background-color: #3d375e7f;
+}
+
+select,
+.dropdown.aura-soft:hover {
+  background-color: #af8aff7f;
 }
 
 /* @settings

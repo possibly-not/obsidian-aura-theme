@@ -1,3 +1,4 @@
+.theme-dark,
 .theme-dark.aura-dark {
     --background-primary: #15141b;
     --background-secondary: #110f18;
@@ -6,16 +7,38 @@
     --titlebar-background-focused: var(--background-secondary);
     --code-background: var(--background-secondary);
     --indentation-guide-color: #edecee;
+	--color-base-30: #61ffca;
+}
+
+.clickable-icon:hover, .clickable-icon:hover svg, .is-focused .titlebar-inner {
+	color: #61ffca;
+}
+
+/* File picker: Make current file purple! */
+body:not(.is-grabbing) .nav-file-title.is-active:hover, body:not(.is-grabbing) .nav-folder-title.is-active:hover, .nav-file-title.is-active, .nav-folder-title.is-active {
+	color: #a277ff;
+}
+
+select,
+.dropdown {
+  background-color: #3d375e7f;
+}
+
+select,
+.dropdown:hover {
+  background-color: #af8aff7f;
 }
 
 .theme-dark.aura-soft {
-    --background-primary: #15141b;
-    --background-secondary: #110f18;
-	--ribbon-background: #15141b;
-	--titlebar-background: var(--background-secondary);
-    --titlebar-background-focused: var(--background-secondary);
-    --code-background: var(--background-secondary);
-    --indentation-guide-color: #bdbdbd;
+    --background-primary: #15141b !important;
+    --background-secondary: #110f18 !important;
+	--ribbon-background: #15141b !important;
+	--titlebar-background: var(--background-secondary) !important;
+    --titlebar-background-focused: var(--background-secondary) !important;
+    --code-background: var(--background-secondary) !important;
+    --indentation-guide-color: #bdbdbd !important;
+    --color-base-30: #54c59f !important;
+
 }
 
 /* @settings
@@ -34,5 +57,6 @@ settings:
         label: Aura Dark
         value: aura-dark
       -
-        label: Aura Dark Soft
+        label: Aura Soft Dark 
         value: aura-soft
+*/

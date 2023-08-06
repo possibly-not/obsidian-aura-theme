@@ -7,9 +7,9 @@ Find the repo here : https://github.com/daltonmenezes/aura-theme
 ## Features
 - [x] Aura Dark and Aura Dark Soft
 - [x] Other tweaks via plugins!
-- [ ] Additional two soft text themes.
+- [ ] Additional two soft text themes
 - [ ] Light mode 
-- [ ] Complete theme coverage, 
+- [ ] Complete theme coverage
 - [x] Pull requests accepted! 
 
 ![image](img/aura_dark.png)
@@ -24,3 +24,10 @@ Currently with **Aura Dark** and **Aura Dark Soft** options, using the Style Set
 3. Hit browse and search for "Style Settings", and then install it
 4. At the bottom of the page enable the "Style Settings" plugin
 5. Go to the "Style Settings" tab in the bottom left, open the Aura Theme section and change from Aura Dark to Aura Dark Soft. 
+
+
+## Known Issues: 
+- Search Bar themeing
+- Turn On/Turn Off buttons aren't themed correctly.
+- Top 3 icons (files, search, bookmarks) aren't correctly coloured when highlighted
+- Cyan line highlights doesn't change to be soft when in Aura Dark Soft (more css knowledge needed)

@@ -5,7 +5,7 @@
 This is an Obsidian theme based on the Aura Theme! Made via the Aura API.
 Find the repo here : https://github.com/daltonmenezes/aura-theme
 ## Features
-- [x] Aura Dark and Aura Soft Dark 
+- [x] Aura Dark and Aura Dark Soft
 - [x] Other tweaks via plugins!
 - [ ] Additional two soft text themes.
 - [ ] Light mode 

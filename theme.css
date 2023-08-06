@@ -1,0 +1,38 @@
+.theme-dark.aura-dark {
+    --background-primary: #15141b;
+    --background-secondary: #110f18;
+	--ribbon-background: #15141b;
+	--titlebar-background: var(--background-secondary);
+    --titlebar-background-focused: var(--background-secondary);
+    --code-background: var(--background-secondary);
+    --indentation-guide-color: #edecee;
+}
+
+.theme-dark.aura-soft {
+    --background-primary: #15141b;
+    --background-secondary: #110f18;
+	--ribbon-background: #15141b;
+	--titlebar-background: var(--background-secondary);
+    --titlebar-background-focused: var(--background-secondary);
+    --code-background: var(--background-secondary);
+    --indentation-guide-color: #bdbdbd;
+}
+
+/* @settings
+name: Aura Version
+id: aura-theme-settings
+settings:
+  -
+    id: aura-theme-dark
+    title: Softness
+    description: Select your preferred Aura variation
+    type: class-select
+    allowEmpty: false
+    default: aura-dark
+    options:
+      -
+        label: Aura Dark
+        value: aura-dark
+      -
+        label: Aura Dark Soft
+        value: aura-soft
